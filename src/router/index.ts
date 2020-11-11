@@ -7,10 +7,6 @@ const routes: Array<RouteRecordRaw> = [
     redirect: '/login'
   },
   {
-    path: '/folder/:id',
-    component: () => import ('../views/Folder.vue')
-  },
-  {
     path: '/login',
     component: () => import ('../views/LoginPage.vue')
   }
