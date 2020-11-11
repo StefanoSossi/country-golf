@@ -1,0 +1,8 @@
+{
+  "name": "Country Golf",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue",
+  "id": "58912292"
+}
