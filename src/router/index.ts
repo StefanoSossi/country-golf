@@ -9,6 +9,14 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/login',
     component: () => import ('../views/LoginPage.vue')
+  },
+  {
+    path: '/pick',
+    component: () => import ('../views/PickCamp.vue')
+  },
+  {
+    path: '/camp1',
+    component: () => import ('../views/Camp1.vue')
   }
 ]
 

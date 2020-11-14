@@ -1,11 +1,8 @@
 <template>
   <ion-page>
       <body>
-        
         <div class="login-box">
-          <div class="imagebox">
-            <img src="../../resources/logo-country.png" />
-          </div>
+          <h1>Login</h1>
           <div class="textbox">
             <i class="fas fa-user"></i>
             <input type="text" placeholder="Username">
@@ -24,7 +21,7 @@
 import { } from '@ionic/vue';
 
 export default {
-  name: 'Login',
+  name: 'Camp1',
   components: {  }
 }
 </script>
@@ -38,23 +35,30 @@ body{
   background-size: cover;
 }
 .login-box{
-  width: 60%;
+  width: 280px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   color: white;
 }
+.login-box h1{
+  float: left;
+  font-size: 40px;
+  border-bottom: 6px solid #00aae4;
+  margin-bottom: 50px;
+  padding: 13px 0;
+}
 .textbox{
   width: 100%;
   overflow: hidden;
-  font-size: 10%;
+  font-size: 20px;
   padding: 8px 0;
   margin: 8px 0;
   border-bottom: 1px solid #00aae4;
 }
 .textbox i{
-  width: 10%;
+  width: 26px;
   float: left;
   text-align: center;
 }
@@ -78,12 +82,4 @@ body{
   cursor: pointer;
   margin: 12px 0;
 }
-img{
-  position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
 </style>
