@@ -60,24 +60,76 @@
       <ion-content>
         <div>
           <ion-list>
+            <ion-item> </ion-item>
             <ion-item>
-              <ion-button> 7:00 am APPOINTMENT </ion-button>
-              <ion-label>Pokémon Yellow</ion-label>
+              <ion-card>
+                <ion-item href="#" class="ion-activated">
+                  <ion-button>Reservar</ion-button>
+                  <ion-label>Card Link Item 1 activated</ion-label>
+                </ion-item>
+
+                <ion-item href="#">
+                  <ion-button>Reservar</ion-button>
+                  <ion-label>Card Link Item 2</ion-label>
+                </ion-item>
+
+                <ion-item class="ion-activated">
+                  <ion-button>Reservar</ion-button>
+                  <ion-label>Card Button Item 1 activated</ion-label>
+                </ion-item>
+
+                <ion-item>
+                  <ion-button>Reservar</ion-button>
+                  <ion-label>Card Button Item 2</ion-label>
+                </ion-item>
+              </ion-card>
             </ion-item>
             <ion-item>
-              <ion-label>Mega Man X</ion-label>
+              <ion-card>
+                <ion-card-header>
+                  <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+                  <ion-card-title>Card Title</ion-card-title>
+                  <img
+                    class="image-size"
+                    src="../../resources/GolfField.jpg"
+                    alt=""
+                  />
+                </ion-card-header>
+
+                <ion-card-content>
+                  Keep close to Nature's heart... and break clear away, once in
+                  awhile, and climb a mountain or spend a week in the woods.
+                  Wash your spirit clean.
+                </ion-card-content>
+              </ion-card>
             </ion-item>
             <ion-item>
-              <ion-label>The Legend of Zelda</ion-label>
+              <ion-card>
+                <ion-card-header>
+                  <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+                  <ion-card-title>Card Title</ion-card-title>
+                </ion-card-header>
+
+                <ion-card-content>
+                  Keep close to Nature's heart... and break clear away, once in
+                  awhile, and climb a mountain or spend a week in the woods.
+                  Wash your spirit clean.
+                </ion-card-content>
+              </ion-card>
             </ion-item>
             <ion-item>
-              <ion-label>The Legend of Zelda</ion-label>
-            </ion-item>
-            <ion-item>
-              <ion-label>The Legend of Zelda</ion-label>
-            </ion-item>
-            <ion-item>
-              <ion-label>The Legend of Zelda</ion-label>
+              <ion-card>
+                <ion-card-header>
+                  <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+                  <ion-card-title>Card Title</ion-card-title>
+                </ion-card-header>
+
+                <ion-card-content>
+                  Keep close to Nature's heart... and break clear away, once in
+                  awhile, and climb a mountain or spend a week in the woods.
+                  Wash your spirit clean.
+                </ion-card-content>
+              </ion-card>
             </ion-item>
           </ion-list>
         </div>
@@ -85,7 +137,7 @@
         <ion-tabs>
           <ion-tab-bar slot="bottom">
             <ion-tab-button tab="tab1" href="">
-              <ion-icon :icon="triangle" />
+              <ion-icon name="basket"></ion-icon>
               <ion-label>Tab 1</ion-label>
             </ion-tab-button>
 
@@ -130,5 +182,13 @@ export default {
 }
 .marcoNegro {
   border: 2px solid #3db5ff;
+}
+.image-size {
+  width: 60%;
+  height: 60%;
+}
+.image-size2 {
+  width: 20%;
+  height: 60%;
 }
 </style>
