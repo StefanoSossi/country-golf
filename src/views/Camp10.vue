@@ -260,7 +260,7 @@ import {
 } from "@ionic/vue";
 import { removeOutline, addOutline  } from 'ionicons/icons';
 export default {
-  name: "camp1",
+  name: "camp10",
   components: { 
   },
   setup() {

@@ -1,41 +1,49 @@
 <template>
   <ion-page>
       <body>
-        <div class="login-box">
+        <form @submit.prevent="verify" class="login-box">
           <div class="imagebox">
             <img src="../../resources/logo-country.png" />
           </div>
           <div class="textbox">
-            <i class="fas fa-user"></i>
             <input type="text" placeholder="Username" v-model="username">
           </div>
           <div class="textbox">
-            <i class="fas fa-lock"></i>
             <input type="password" placeholder="Password" v-model="password">
           </div>
-          <ion-button expand="block" shape="round" class="btn" href="/pick" Fill="clear" >Sign in</ion-button>
-        </div>
+          <button expand="block" shape="round" class="btn" type="submit" Fill="clear" >Sign in</button>
+        </form>
       </body>
   </ion-page>
 </template>
 
-<script lang="ts">
+<script>
+
+import firebase from "firebase/app";
+import "firebase/auth";
 
 export default {
-  name: 'Login',
-  components: {
-  },
   data() {
     return {
       username: "",
-      password: "",
+      password: ""
     };
   },
   methods: {
-    /*verify(){
+    pressed(){
+      firebase.auth().signInWithEmailAndPassword(this.$data.username,this.$data.password)
+      .then(data => {
+          console.log(data);
+          this.$router.push("/home");
+        })
+        .catch(error => {
+          this.error = error;
+        });
+    },
+    verify(){
       const nav = document.querySelector('ion-nav');
       if( this._validateUsername() && this._validatePassword()){
-        //redireccionar
+        this.$router.push("/home");
         
       }
     },
@@ -54,8 +62,9 @@ export default {
       }else {
         return true;
       }
-    },*/
+    },
   }
+  
 };
 </script>
 

@@ -4,7 +4,7 @@
             <ion-button class="btn1" Fill="clear" href="/camp1">Partir del hoyo 1</ion-button>
         </div>
         <div class="containedRight">        
-            <ion-button class="btn10" Fill="clear" href="/camp1">Partir del hoyo 10</ion-button>
+            <ion-button class="btn10" Fill="clear" href="/camp10">Partir del hoyo 10</ion-button>
         </div>   
          
   </ion-page>
