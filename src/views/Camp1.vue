@@ -44,7 +44,7 @@
         4
       </ion-col>
       <ion-col class="numbers" style="background: white;">
-        <input type="number" placeholder="N°" style="width: 80px; height:27px">
+        <input type="number" placeholder="N°" style="width: 80px; height:27px" onfocus="this.value=''" v-model="h1">
       </ion-col>
     </ion-row>
     <ion-row >
@@ -67,7 +67,7 @@
         4
       </ion-col>
       <ion-col class="numbers" style="background: white;">
-        <input type="number" placeholder="N°" style="width: 80px; height:27px">
+        <input type="number" placeholder="N°" style="width: 80px; height:27px" onfocus="this.value=''" v-model="h2">
       </ion-col>
     </ion-row>
     <ion-row >
@@ -90,7 +90,7 @@
         3
       </ion-col>
       <ion-col class="numbers" style="background: white;">
-        <input type="number" placeholder="N°" style="width: 80px; height:27px">
+        <input type="number" placeholder="N°" style="width: 80px; height:27px" onfocus="this.value=''" v-model="h3">
       </ion-col>
     </ion-row>
     <ion-row >
@@ -113,7 +113,7 @@
         5
       </ion-col>
       <ion-col class="numbers"  style="background: white;">
-        <input type="number" placeholder="N°" style="width: 80px; height:27px">
+        <input type="number" placeholder="N°" style="width: 80px; height:27px" onfocus="this.value=''" v-model="h4">
       </ion-col>
     </ion-row>
     <ion-row >
@@ -136,7 +136,7 @@
         5
       </ion-col>
       <ion-col class="numbers" style="background: white;">
-        <input type="number" placeholder="N°" style="width: 80px; height:27px">
+        <input type="number" placeholder="N°" style="width: 80px; height:27px" onfocus="this.value=''" v-model="h5">
       </ion-col>
     </ion-row>
     <ion-row >
@@ -159,7 +159,7 @@
         4
       </ion-col>
       <ion-col class="numbers" style="background: white;">
-        <input type="number" placeholder="N°" style="width: 80px; height:27px">
+        <input type="number" placeholder="N°" style="width: 80px; height:27px" onfocus="this.value=''" v-model="h6">
       </ion-col>
     </ion-row>
     <ion-row >
@@ -182,7 +182,7 @@
         3
       </ion-col>
       <ion-col class="numbers" style="background: white;">
-        <input type="number" placeholder="N°" style="width: 80px; height:27px">
+        <input type="number" placeholder="N°" style="width: 80px; height:27px" onfocus="this.value=''" v-model="h7">
       </ion-col>
     </ion-row>
     <ion-row >
@@ -205,7 +205,7 @@
         4
       </ion-col>
       <ion-col class="numbers" style="background: white;">
-        <input type="number" placeholder="N°" style="width: 80px; height:27px">
+        <input type="number" placeholder="N°" style="width: 80px; height:27px" onfocus="this.value=''" v-model="h8">
       </ion-col>
     </ion-row>
     <ion-row >
@@ -228,7 +228,7 @@
         5
       </ion-col>
       <ion-col class="numbers"  style="background: white;">
-        <input type="number" placeholder="N°" style="width: 80px; height:27px" >
+        <input type="number" placeholder="N°" style="width: 80px; height:27px" onfocus="this.value=''" v-model="h9" >
       </ion-col>
     </ion-row>
     <ion-row >
@@ -248,7 +248,7 @@
         37
       </ion-col>
       <ion-col class="numbers"  style="background: white; height: 80px">
-        <input type="number" placeholder="N°" style="width: 80px; height:27px" >
+        <input type="number" placeholder="N°" style="width: 80px; height:27px" v-model="htotal9" >
       </ion-col>
     </ion-row>
     </ion-grid>
@@ -261,6 +261,20 @@ import {
 import { removeOutline, addOutline  } from 'ionicons/icons';
 export default {
   name: "camp1",
+  data() {
+    return {
+      h1: 0,
+      h2: 0,
+      h3: 0,
+      h4: 0,
+      h5: 0,
+      h6: 0,
+      h7: 0,
+      h8: 0,
+      h9: 0,
+      htotal9: 0,
+    };
+  },
   components: { 
   },
   setup() {

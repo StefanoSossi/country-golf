@@ -26,229 +26,229 @@
     </ion-row>
     <ion-row >
       <ion-col class="numbers" size="1.7" style="background: blue;">
-        364
+        529
       </ion-col>
       <ion-col class="numbers" size="1.7" style="background: white;">
-        352
+        517
       </ion-col>
       <ion-col class="numbers" size="1.7" style="background: red;">
-        300
+        442
       </ion-col>
       <ion-col class="numbers" size="1.2" style="background: orange;">
-        1
+        10
       </ion-col>
       <ion-col class="numbers" size="1.2" style="background: green;">
-        15
-      </ion-col>
-      <ion-col class="numbers" size="1.2" style="background: yellow;">
-        4
-      </ion-col>
-      <ion-col class="numbers" style="background: white;">
-        <input type="number" placeholder="N°" style="width: 80px; height:27px">
-      </ion-col>
-    </ion-row>
-    <ion-row >
-      <ion-col class="numbers" size="1.7" style="background: blue;">
-        300
-      </ion-col>
-      <ion-col class="numbers" size="1.7" style="background: white;">
-        287
-      </ion-col>
-      <ion-col class="numbers" size="1.7" style="background: red;">
-        272
-      </ion-col>
-      <ion-col class="numbers" size="1.2" style="background: orange;">
-        2
-      </ion-col>
-      <ion-col class="numbers" size="1.2" style="background: green;">
-        11
-      </ion-col>
-      <ion-col class="numbers" size="1.2" style="background: yellow;">
-        4
-      </ion-col>
-      <ion-col class="numbers" style="background: white;">
-        <input type="number" placeholder="N°" style="width: 80px; height:27px">
-      </ion-col>
-    </ion-row>
-    <ion-row >
-      <ion-col class="numbers" size="1.7" style="background: blue;">
-        185
-      </ion-col>
-      <ion-col class="numbers" size="1.7" style="background: white;">
-        163
-      </ion-col>
-      <ion-col class="numbers" size="1.7" style="background: red;">
-        158
-      </ion-col>
-      <ion-col class="numbers" size="1.2" style="background: orange;">
-        3
-      </ion-col>
-      <ion-col class="numbers" size="1.2" style="background: green;">
-        17
-      </ion-col>
-      <ion-col class="numbers" size="1.2" style="background: yellow;">
-        3
-      </ion-col>
-      <ion-col class="numbers" style="background: white;">
-        <input type="number" placeholder="N°" style="width: 80px; height:27px">
-      </ion-col>
-    </ion-row>
-    <ion-row >
-      <ion-col class="numbers" size="1.7" style="background: blue;">
-        549
-      </ion-col>
-      <ion-col class="numbers" size="1.7" style="background: white;">
-        525
-      </ion-col>
-      <ion-col class="numbers" size="1.7" style="background: red;">
-        464
-      </ion-col>
-      <ion-col class="numbers"  size="1.2" style="background: orange;">
-        4
-      </ion-col>
-      <ion-col class="numbers"  size="1.2" style="background: green;">
-        3
-      </ion-col>
-      <ion-col class="numbers"  size="1.2" style="background: yellow;">
-        5
-      </ion-col>
-      <ion-col class="numbers"  style="background: white;">
-        <input type="number" placeholder="N°" style="width: 80px; height:27px">
-      </ion-col>
-    </ion-row>
-    <ion-row >
-      <ion-col class="numbers" size="1.7" style="background: blue;">
-        628
-      </ion-col>
-      <ion-col class="numbers" size="1.7" style="background: white;">
-        614
-      </ion-col>
-      <ion-col class="numbers" size="1.7" style="background: red;">
-        565
-      </ion-col>
-      <ion-col class="numbers" size="1.2" style="background: orange;">
-        5
-      </ion-col>
-      <ion-col class="numbers" size="1.2" style="background: green;">
-        1
-      </ion-col>
-      <ion-col class="numbers" size="1.2" style="background: yellow;">
-        5
-      </ion-col>
-      <ion-col class="numbers" style="background: white;">
-        <input type="number" placeholder="N°" style="width: 80px; height:27px">
-      </ion-col>
-    </ion-row>
-    <ion-row >
-      <ion-col class="numbers" size="1.7" style="background: blue;">
-        417
-      </ion-col>
-      <ion-col class="numbers" size="1.7" style="background: white;">
-        399
-      </ion-col>
-      <ion-col class="numbers" size="1.7" style="background: red;">
-        347
-      </ion-col>
-      <ion-col class="numbers" size="1.2" style="background: orange;">
-        6
-      </ion-col>
-      <ion-col class="numbers" size="1.2" style="background: green;">
-        5
-      </ion-col>
-      <ion-col class="numbers" size="1.2" style="background: yellow;">
-        4
-      </ion-col>
-      <ion-col class="numbers" style="background: white;">
-        <input type="number" placeholder="N°" style="width: 80px; height:27px">
-      </ion-col>
-    </ion-row>
-    <ion-row >
-      <ion-col class="numbers" size="1.7" style="background: blue;">
-        192
-      </ion-col>
-      <ion-col class="numbers" size="1.7" style="background: white;">
-        179
-      </ion-col>
-      <ion-col class="numbers" size="1.7" style="background: red;">
-        150
-      </ion-col>
-      <ion-col class="numbers" size="1.2" style="background: orange;">
-        7
-      </ion-col>
-      <ion-col class="numbers" size="1.2" style="background: green;">
-        13
-      </ion-col>
-      <ion-col class="numbers" size="1.2" style="background: yellow;">
-        3
-      </ion-col>
-      <ion-col class="numbers" style="background: white;">
-        <input type="number" placeholder="N°" style="width: 80px; height:27px">
-      </ion-col>
-    </ion-row>
-    <ion-row >
-      <ion-col class="numbers" size="1.7" style="background: blue;">
-        380
-      </ion-col>
-      <ion-col class="numbers" size="1.7" style="background: white;">
-        365
-      </ion-col>
-      <ion-col class="numbers" size="1.7" style="background: red;">
-        337
-      </ion-col>
-      <ion-col class="numbers" size="1.2" style="background: orange;">
         8
       </ion-col>
+      <ion-col class="numbers" size="1.2" style="background: yellow;">
+        5
+      </ion-col>
+      <ion-col class="numbers" style="background: white;">
+        <input type="number" placeholder="N°" style="width: 80px; height:27px" onfocus="this.value=''" v-model="h10">
+      </ion-col>
+    </ion-row>
+    <ion-row >
+      <ion-col class="numbers" size="1.7" style="background: blue;">
+        392
+      </ion-col>
+      <ion-col class="numbers" size="1.7" style="background: white;">
+        368
+      </ion-col>
+      <ion-col class="numbers" size="1.7" style="background: red;">
+        350
+      </ion-col>
+      <ion-col class="numbers" size="1.2" style="background: orange;">
+        11
+      </ion-col>
       <ion-col class="numbers" size="1.2" style="background: green;">
-        9
+        6
       </ion-col>
       <ion-col class="numbers" size="1.2" style="background: yellow;">
         4
       </ion-col>
       <ion-col class="numbers" style="background: white;">
-        <input type="number" placeholder="N°" style="width: 80px; height:27px">
+        <input type="number" placeholder="N°" style="width: 80px; height:27px" onfocus="this.value=''" v-model="h11">
       </ion-col>
     </ion-row>
     <ion-row >
       <ion-col class="numbers" size="1.7" style="background: blue;">
-        562
+        587
       </ion-col>
       <ion-col class="numbers" size="1.7" style="background: white;">
-        547
+        536
       </ion-col>
       <ion-col class="numbers" size="1.7" style="background: red;">
-        452
+        470
       </ion-col>
       <ion-col class="numbers" size="1.2" style="background: orange;">
-        9
+        12
       </ion-col>
       <ion-col class="numbers" size="1.2" style="background: green;">
-        7
+        2
       </ion-col>
       <ion-col class="numbers" size="1.2" style="background: yellow;">
         5
       </ion-col>
+      <ion-col class="numbers" style="background: white;">
+        <input type="number" placeholder="N°" style="width: 80px; height:27px" onfocus="this.value=''" v-model="h12">
+      </ion-col>
+    </ion-row>
+    <ion-row >
+      <ion-col class="numbers" size="1.7" style="background: blue;">
+        197
+      </ion-col>
+      <ion-col class="numbers" size="1.7" style="background: white;">
+        185
+      </ion-col>
+      <ion-col class="numbers" size="1.7" style="background: red;">
+        167
+      </ion-col>
+      <ion-col class="numbers"  size="1.2" style="background: orange;">
+        13
+      </ion-col>
+      <ion-col class="numbers"  size="1.2" style="background: green;">
+        16
+      </ion-col>
+      <ion-col class="numbers"  size="1.2" style="background: yellow;">
+        3
+      </ion-col>
       <ion-col class="numbers"  style="background: white;">
-        <input type="number" placeholder="N°" style="width: 80px; height:27px" >
+        <input type="number" placeholder="N°" style="width: 80px; height:27px" onfocus="this.value=''" v-model="h13">
+      </ion-col>
+    </ion-row>
+    <ion-row >
+      <ion-col class="numbers" size="1.7" style="background: blue;">
+        410
+      </ion-col>
+      <ion-col class="numbers" size="1.7" style="background: white;">
+        375
+      </ion-col>
+      <ion-col class="numbers" size="1.7" style="background: red;">
+        353
+      </ion-col>
+      <ion-col class="numbers" size="1.2" style="background: orange;">
+        14
+      </ion-col>
+      <ion-col class="numbers" size="1.2" style="background: green;">
+        10
+      </ion-col>
+      <ion-col class="numbers" size="1.2" style="background: yellow;">
+        4
+      </ion-col>
+      <ion-col class="numbers" style="background: white;">
+        <input type="number" placeholder="N°" style="width: 80px; height:27px" onfocus="this.value=''" v-model="h14">
+      </ion-col>
+    </ion-row>
+    <ion-row >
+      <ion-col class="numbers" size="1.7" style="background: blue;">
+        145
+      </ion-col>
+      <ion-col class="numbers" size="1.7" style="background: white;">
+        137
+      </ion-col>
+      <ion-col class="numbers" size="1.7" style="background: red;">
+        129
+      </ion-col>
+      <ion-col class="numbers" size="1.2" style="background: orange;">
+        15
+      </ion-col>
+      <ion-col class="numbers" size="1.2" style="background: green;">
+        18
+      </ion-col>
+      <ion-col class="numbers" size="1.2" style="background: yellow;">
+        3
+      </ion-col>
+      <ion-col class="numbers" style="background: white;">
+        <input type="number" placeholder="N°" style="width: 80px; height:27px" onfocus="this.value=''" v-model="h15">
+      </ion-col>
+    </ion-row>
+    <ion-row >
+      <ion-col class="numbers" size="1.7" style="background: blue;">
+        385
+      </ion-col>
+      <ion-col class="numbers" size="1.7" style="background: white;">
+        376
+      </ion-col>
+      <ion-col class="numbers" size="1.7" style="background: red;">
+        330
+      </ion-col>
+      <ion-col class="numbers" size="1.2" style="background: orange;">
+        16
+      </ion-col>
+      <ion-col class="numbers" size="1.2" style="background: green;">
+        12
+      </ion-col>
+      <ion-col class="numbers" size="1.2" style="background: yellow;">
+        4
+      </ion-col>
+      <ion-col class="numbers" style="background: white;">
+        <input type="number" placeholder="N°" style="width: 80px; height:27px" onfocus="this.value=''" v-model="h16">
+      </ion-col>
+    </ion-row>
+    <ion-row >
+      <ion-col class="numbers" size="1.7" style="background: blue;">
+        437
+      </ion-col>
+      <ion-col class="numbers" size="1.7" style="background: white;">
+        402
+      </ion-col>
+      <ion-col class="numbers" size="1.7" style="background: red;">
+        372
+      </ion-col>
+      <ion-col class="numbers" size="1.2" style="background: orange;">
+        17
+      </ion-col>
+      <ion-col class="numbers" size="1.2" style="background: green;">
+        4
+      </ion-col>
+      <ion-col class="numbers" size="1.2" style="background: yellow;">
+        4
+      </ion-col>
+      <ion-col class="numbers" style="background: white;">
+        <input type="number" placeholder="N°" style="width: 80px; height:27px" onfocus="this.value=''" v-model="h17">
+      </ion-col>
+    </ion-row>
+    <ion-row >
+      <ion-col class="numbers" size="1.7" style="background: blue;">
+        180
+      </ion-col>
+      <ion-col class="numbers" size="1.7" style="background: white;">
+        167
+      </ion-col>
+      <ion-col class="numbers" size="1.7" style="background: red;">
+        153
+      </ion-col>
+      <ion-col class="numbers" size="1.2" style="background: orange;">
+        18
+      </ion-col>
+      <ion-col class="numbers" size="1.2" style="background: green;">
+        14
+      </ion-col>
+      <ion-col class="numbers" size="1.2" style="background: yellow;">
+        3
+      </ion-col>
+      <ion-col class="numbers"  style="background: white;">
+        <input type="number" placeholder="N°" style="width: 80px; height:27px" onfocus="this.value=''" v-model="h18" >
       </ion-col>
     </ion-row>
     <ion-row >
       <ion-col class="numbers" size="1.7" style="background: blue; height: 80px">
-        3577
+        3262
       </ion-col>
       <ion-col class="numbers" size="1.7" style="background: white; height: 80px">
-        3431
+        3058
       </ion-col>
       <ion-col class="numbers" size="1.7" style="background: red; height: 80px">
-        3045
+        2776
       </ion-col>
       <ion-col class="numbers" size="2.4" style="background: white; height: 80px">
-        1era. VUELTA
+        2da. VUELTA
       </ion-col>
       <ion-col class="numbers" size="1.2" style="background: yellow; height: 80px">
-        37
+        35
       </ion-col>
       <ion-col class="numbers"  style="background: white; height: 80px">
-        <input type="number" placeholder="N°" style="width: 80px; height:27px" >
+        <input type="number" placeholder="N°" style="width: 80px; height:27px" v-model="htotal18" >
       </ion-col>
     </ion-row>
     </ion-grid>
@@ -261,6 +261,20 @@ import {
 import { removeOutline, addOutline  } from 'ionicons/icons';
 export default {
   name: "camp10",
+  data() {
+    return {
+      h10: 0,
+      h11: 0,
+      h12: 0,
+      h13: 0,
+      h14: 0,
+      h15: 0,
+      h16: 0,
+      h17: 0,
+      h18: 0,
+      htotal18: 0,
+    };
+  },
   components: { 
   },
   setup() {

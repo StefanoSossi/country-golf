@@ -1,7 +1,7 @@
 <template>
   <ion-page>
       <body>
-        <form @submit.prevent="pressed" class="login-box">
+        <form @submit.prevent="verify" class="login-box">
           <div class="imagebox">
             <img src="../../resources/logo-country.png" />
           </div>
@@ -38,13 +38,13 @@ export default {
         })
         .catch(error => {
           this.error = error;
-          console.log("usuario", this.error);
+          alert(this.error);
         });
     },
     verify(){
       const nav = document.querySelector('ion-nav');
       if( this._validateUsername() && this._validatePassword()){
-        this.$router.push("/home");
+        this.pressed();
         
       }
     },

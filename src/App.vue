@@ -1,6 +1,6 @@
 <template>
   <IonApp>
-    <ion-router-outlet id="main-content"></ion-router-outlet>
+    <ion-router-outlet class="app" id="main-content"></ion-router-outlet>
   </IonApp>
 </template>
 
@@ -20,4 +20,8 @@ export default defineComponent({
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+.app{
+  background: rgb(240, 253, 255);
+}
+</style>
