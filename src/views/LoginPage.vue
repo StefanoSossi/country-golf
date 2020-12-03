@@ -1,7 +1,7 @@
 <template>
   <ion-page>
       <body>
-        <form @submit.prevent="verify" class="login-box">
+        <form @submit.prevent="pressed" class="login-box">
           <div class="imagebox">
             <img src="../../resources/logo-country.png" />
           </div>
@@ -19,8 +19,7 @@
 
 <script>
 
-import firebase from "firebase/app";
-import "firebase/auth";
+import { auth } from "@/firebaseDb";
 
 export default {
   data() {
@@ -31,13 +30,15 @@ export default {
   },
   methods: {
     pressed(){
-      firebase.auth().signInWithEmailAndPassword(this.$data.username,this.$data.password)
+      
+      auth.signInWithEmailAndPassword(this.$data.username,this.$data.password)
       .then(data => {
           console.log(data);
           this.$router.push("/home");
         })
         .catch(error => {
           this.error = error;
+          console.log("usuario", this.error);
         });
     },
     verify(){

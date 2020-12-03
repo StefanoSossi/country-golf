@@ -102,6 +102,7 @@ import {
 } from "@ionic/vue";
 import { db } from "@/firebaseDb";
 
+
 export default defineComponent({
   name: "Main",
   components: {
