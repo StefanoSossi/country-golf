@@ -30,7 +30,6 @@ export default {
   },
   methods: {
     pressed(){
-      
       auth.signInWithEmailAndPassword(this.$data.username,this.$data.password)
       .then(data => {
           console.log(data);
@@ -42,7 +41,6 @@ export default {
         });
     },
     verify(){
-      const nav = document.querySelector('ion-nav');
       if( this._validateUsername() && this._validatePassword()){
         this.pressed();
         
